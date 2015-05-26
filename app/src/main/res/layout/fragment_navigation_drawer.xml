@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222331"
+    android:orientation="vertical"
+    android:paddingTop="61dp">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_drawable_menu_item"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_home"
+        android:gravity="center_vertical"
+        android:paddingStart="14dp"
+        android:text="Home"
+        android:textColor="#fff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_drawable_menu_item"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_signal"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:text="Build"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/popup_number"
+            android:gravity="center"
+            android:text="3"/>
+    </RelativeLayout>
+</LinearLayout>
